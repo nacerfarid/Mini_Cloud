@@ -1,0 +1,37 @@
+<configuration>
+	<configParam>
+		<quota>15</quota>
+		<nbMaxUtilisateurs>25</nbMaxUtilisateurs>
+		<bufferSize>1048576</bufferSize>
+		<nbMaxFichiersPartages>15</nbMaxFichiersPartages>
+		<tailleMaxFichier>0.5</tailleMaxFichier>
+		<tailleMaxNomFichier>200</tailleMaxNomFichier>
+		<longueurMinPassword>6</longueurMinPassword>
+		<nbMaxAbonnements>10</nbMaxAbonnements>
+		<nbMaxPartage>10</nbMaxPartage>
+		<adresseBDD>mysql-miageproject.alwaysdata.net</adresseBDD>
+		<nomBDD>miageproject_cloud</nomBDD>
+		<userBDD>137505</userBDD>
+		<passBDD>root</passBDD>
+		<UploadPath>./uploads/</UploadPath>
+		<adresseMail>miageproject@gmail.com</adresseMail>
+		<passwordMail>*miageproject*</passwordMail>
+		<hostMail>smtp.gmail.com</hostMail>
+		<portMail>587</portMail>
+		<dureeCorbeille>30</dureeCorbeille>
+	</configParam>
+	<configModule>
+		<config key="SERVEUR_ENREGISTREMENT" value="true"/>
+		<config key="SERVEUR_GERER_PROFIL" value="true"/>
+		<config key="SERVEUR_PARTAGE" value="true"/>
+		<config key="SERVEUR_NOTIF_MAIL" value="true"/>
+		<config key="SERVEUR_NOTIF_POPUP" value="true"/>
+		<config key="SERVEUR_LIMITE_ESPACE" value="true"/>
+		<config key="CLIENT_VUE_PROFIL" value="true"/>
+		<config key="CLIENT_VUE_QUOTA" value="true"/>
+		<config key="CLIENT_VUE_INFO_FICHIER" value="true"/>
+		<config key="CLIENT_VUE_ARBORESCENCE" value="true"/>
+		<config key="CLIENT_OPT_TRI" value="false"/>
+		<config key="CLIENT_FCT_DEPLACEMENT" value="true"/>
+	</configModule>
+</configuration>
